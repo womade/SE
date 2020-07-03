@@ -77,9 +77,6 @@ body {
   margin: 0px auto;
   bottom: 80px;
 }
-.button:before {
-	background:#f0f0f0bb;
-	background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#D0D0D000), to(#f0f0f000));
 	
 	-webkit-border-radius:30px;
 	-moz-border-radius:30px;
@@ -96,14 +93,7 @@ body {
 	z-index: -1;
 }
 
-.button:active {
-	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset;
-	top:5px;
-}
 .button:active:before{
-	top: -11px;
-	bottom: -5px;
-	content: "";
 }
 
 .download {
@@ -115,7 +105,7 @@ body {
 	background-image:-ms-linear-gradient(top, #48C6D4, #3EACBA);
 	background-image:-o-linear-gradient(top, #48C6D4, #3EACBA);
 	background-image:linear-gradient(top, #48C6D4, #3EACBA);
-	
+
 	-webkit-border-radius:20px;
 	-moz-border-radius:20px;
 	border-radius:20px;
