@@ -35,7 +35,7 @@ body {
   }
 }
 .bg {
-  background: url(https://img.alicdn.com/tps/TB1pfG4IFXXXXc6XXXXXXXXXXXX.jpg);
+  background: url(https://img.ssss.fun/2020/TB1pfG4IFXXXXc6XXXXXXXXXXXX.jpg);
   background-size: cover;
   position: fixed;
   top: -25px;
@@ -52,10 +52,10 @@ body {
   height: 340px;
   -webkit-animation: move 40s infinite;
           animation: move 40s infinite;
-  background-image: url(https://img.alicdn.com/tps/TB1pfG4IFXXXXc6XXXXXXXXXXXX.jpg);
+  background-image: url(https://img.ssss.fun/2020/TB1pfG4IFXXXXc6XXXXXXXXXXXX.jpg);
   background-size: cover;
-  -webkit-mask: url(https://womade.gitee.io/ICON/SSSS.png);
-          mask: url(https://womade.gitee.io/ICON/SSSS.png);
+  -webkit-mask: url(https://womade.gitee.io/ICON/SSSS.svg);
+          mask: url(https://womade.gitee.io/ICON/SSSS.svg);
   -webkit-mask-size: cover;
           mask-size: cover;
 }
