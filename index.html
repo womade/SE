@@ -194,7 +194,7 @@ document.write("</font> 天");
 </div>
 </div>
 <form action="https://www.baidu.com/s?wd=" method="get" target="_blank" id="super-search-fm">
-<input type="text" id="search-text" placeholder="百度一下" style="outline:0">
+<input type="text" id="search-text" placeholder="百度一下" style="outline:0" autocomplete="off">
 <button type="submit"><i class="iconfont icon-ssss"></i></button>
 <ul id="ul" class="ko"></ul>
 </form>
@@ -220,7 +220,7 @@ document.write("</font> 天");
 			document.onkeydown = function(){
 
 		    if(window.event && window.event.keyCode == 123) {
-		        alert("楊遠徵：哼！我就知道你会这样~");
+		        alert("楊遠徵：哼！我就知道你会这样……");
 		        event.keyCode=0;
 		        event.returnValue=false;
 		    }
