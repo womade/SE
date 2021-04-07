@@ -19,7 +19,7 @@ html,body {
 }
 
 .bgo {
-	background: url(https://api.ssss.fun/wallpaper/bing.php);
+	background: url(https://api.ssss.fun/wallpaper/bing.php?w=1920&h=1080);
 	background-position: center;
 	background-size: cover;
 	filter: brightness(.9);
@@ -231,7 +231,7 @@ a {
 	}
 
 	.bgo {
-		background: url(https://api.ssss.fun/wallpaper/bing.php);
+		background: url(https://api.ssss.fun/wallpaper/bing.php?w=1080&h=1920);
 		background-position: center;
 		background-size: cover
 	}
