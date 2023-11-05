@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN" >
+<head>
+<meta charset="UTF-8">
+<title>@SSSS.FUN</title>
+
+<!--图标库-->
+<link rel='stylesheet' href='https://cdn.ssss.fun/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+<!--核心样式-->
+<style>
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{background:#eee;}
+
+.ssss-btns .btn,
+.ssss-btns .btn:before,
+.ssss-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.ssss-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.ssss-btns .btn .fa {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.ssss-btns .btn.s001:before {
+  background-color: #3b5998;
+}
+.ssss-btns .btn.s001 .fa {
+  color: #3b5998;
+}
+.ssss-btns .btn.s002:before {
+  background-color: #00aff0;
+}
+.ssss-btns .btn.s002 .fa {
+  color: #00aff0;
+}
+.ssss-btns .btn.s003:before {
+  background-color: #dc4a38;
+}
+.ssss-btns .btn.s003 .fa {
+  color: #dc4a38;
+}
+.ssss-btns .btn.s004:before {
+  background-color: #bf00ff;
+}
+.ssss-btns .btn.s004 .fa {
+  color: #bf00ff;
+}
+.ssss-btns .btn.s005:before {
+  background-color: #cc0000;
+}
+.ssss-btns .btn.s005 .fa {
+  color: #cc0000;
+}
+.ssss-btns .btn:focus:before,
+.ssss-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.ssss-btns .btn:focus .fa,
+.ssss-btns .btn:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.ssss-btns {
+  height: 90px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.ssss-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  opacity: 0.99;
+}
+.ssss-btns .btn:before {
+  content: "";
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.ssss-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}
+</style>
+
+</head>
+<body>
+
+  <div class="ssss-btns">
+    <a class="btn s001" href="https://v6.51.la/s/9W92BhRVXx4AmEz"><i class="fa fa-search"></i></a>
+    <a class="btn s002" href="https://web.51.la/report/main?comId=21112543"><i class="fa fa-cog"></i></a>
+    <a class="btn s003" href="https://tongji.baidu.com/web/welcome/ico?s=57a2e21ce699a8eb5d88b4d26cd51e3f"><i class="fa fa-bandcamp"></i></a>
+    <a class="btn s004" href="https://uweb.umeng.com/v1/login.php?siteid=1279686788"><i class="fa fa-shopping-cart "></i></a>
+    <a class="btn s005" href="https://tongji.baidu.com/web/source/link?siteId=15623998"><i class="fa fa-rss"></i></a>
+  </div>
+
+</body>
+</html>
